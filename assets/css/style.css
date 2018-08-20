@@ -1,0 +1,27 @@
+.white-text{
+    color: white;
+    text-shadow: 2px 2px black
+}
+
+.justify-content-start{
+    display: flex;
+    justify-content: start
+}
+
+.justify-content-end{
+    display: flex;
+    justify-content: end
+}
+
+.justify-content-center{
+    display: flex;
+    justify-content: center
+}
+
+.align-itmes-center{
+    display: flex;
+    align-items: center
+}
+ul{
+    list-style: none;
+}

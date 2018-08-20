@@ -4,7 +4,7 @@ import QuoteController from "./components/quote/quote-controller.js";
 import ImageController from "./components/image/image-controller.js";
 
 // HEY WHERE ARE ALL OF YOUR CONTROLLERS??
-class app {
+export default class App {
   constructor() {
     this.controllers = {
       weatherController: new WeatherController(),
@@ -15,4 +15,4 @@ class app {
   }
 }
 
-window.app = new app()  
+window.app = new App()  
